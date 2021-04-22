@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap');
+
+body {
+    background-color: darkgrey;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: rgb(250, 250, 250);
+    padding: 0.2rem;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: x-large;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.boxPhoto{
+    background-color:rgb(250, 250, 250);
+    width: 40rem;
+    margin: 2rem auto;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header small{
+    margin: 1.5rem 0.5rem 0 0 ;
+    color: silver;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.header h2{
+    padding: 0.5rem;
+    margin: 0.2rem;
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+.boxPhoto img{
+    width: 40rem;
+    height: auto;
+}
+
+.boxPhoto p{
+    padding: 1rem;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-weight: bold;
+}
